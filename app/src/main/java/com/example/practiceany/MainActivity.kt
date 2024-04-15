@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         recyclerView.layoutManager = LinearLayoutManager(this)
         setContentView(recyclerView)
 
-        val data = listOf("Tarjeta 1", "Tarjeta 2", "Tarjeta 3")
+        val data = listOf("Tarjeta 1")
         val adapter = MyAdapter(data)
         recyclerView.adapter = adapter
     }
